@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikacja z radami</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        button {
+            padding: 5px 20px;
+            background-color: white;
+            border: 3px solid yellowgreen;
+            font-size: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: black;
+            color: white;
+        }
+
+        form {
+            margin: 20px;
+        }
+
+        form input {
+            font-size: 22px;
+        }
+
+        h2 {
+            margin: 20px;
+        }
+
+        h1 {
+            margin: 20px;
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <label for="addValue"> Dodaj możliwości:</label>
+        <input type="text" id="addValue">
+        <button id="add">Dodaj</button>
+        <button id="clean">Resetuj</button>
+    </form>
+    <h2>Komputerze kochany powiedz mi co mam z tym zrobić...</h2>
+    <button id="showAdvice">Pokaż radę</button>
+    <button id="showOptions">Pokaż możliwości</button>
+    <h1></h1>
+    <script src="main.js"></script>
+</body>
+
+</html>
